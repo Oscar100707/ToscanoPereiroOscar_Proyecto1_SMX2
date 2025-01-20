@@ -1,13 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto 1 adicciones</title>
-    <h1>hola</h1>
-    <img src="imagenes/baby-9304011_640.jpg" alt="foto de un bebe">
+    <title>Les Addiccions</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <!-- Logotipo -->
+        <header>
+            <img src="logo.svg" alt="Logotip" class="logo">
+            <h1>Les Addiccions</h1>
+        </header>
+
+        <!-- Video -->
+        <section id="video-section">
+            <h2 class="section-title">El vídeo sobre les addiccions</h2>
+            <div class="video-container">
+                <!-- YouTube Embed -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TU-VIDEO-ID" frameborder="0" allowfullscreen></iframe>
+                <!-- HTML5 Video -->
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                    <source src="video.webm" type="video/webm">
+                    <source src="video.ogv" type="video/ogv">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </section>
+
+        <!-- Sección Informativa -->
+        <section id="info">
+            <h2 class="section-title">Impacte Social</h2>
+            <p>El vídeo tracta sobre els efectes de les addiccions en la societat. A través d'aquest material, volem conscienciar sobre els riscos que aquestes comporten. Les addiccions afecten a les persones, les seves famílies i la societat en general.</p>
+        </section>
+
+        <!-- Música de Fons -->
+        <section id="audio-section">
+            <h2 class="section-title">Música de Fons</h2>
+            <audio controls>
+                <source src="music.mp3" type="audio/mp3">
+                El teu navegador no suporta el reproductor d'àudio.
+            </audio>
+            <p>La música de fons utilitzada és de <strong>Pixabay</strong>, amb llicència gratuïta.</p>
+        </section>
+    </div>
 </body>
 </html>
