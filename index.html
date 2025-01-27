@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Las Adicciones</title>
+    <title>Adicciones a la Tecnología</title>
     <style>
         body {
             margin: 0;
@@ -12,6 +12,17 @@
             color: white;
             text-align: center;
             background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        header {
+            background-color:rgb(119, 116, 110);
+            padding: 20px;
+            text-align: left;
+        }
+
+        header img {
+            max-width: 200px;
+            height: auto;
         }
 
         .video-container {
@@ -48,59 +59,81 @@
             margin-bottom: 20px;
         }
 
+        .content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .content ul li {
+            font-size: 1.5em;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
         .audio-control {
             margin-top: 20px;
         }
     </style>
 </head>
-<body>
-    <!-- Contenido con video reproducible -->
+
+    <!-- Encabezado con logo -->
+    <header>
+        <img src="imagen/Les_adiccions_a_les_tecnologies-removebg-preview.png" alt="Logo" />
+    </header>
+
+    <!-- Contenido sobre las adicciones a la tecnología -->
+    <body>
     <div class="content">
-        <h1>Las Adicciones</h1>
-        <p>Las adicciones son una enfermedad que afecta tanto al cuerpo como a la mente. 
-           A menudo, comienzan como una vía de escape, pero rápidamente se convierten en una prisión.
+        <h1>Adicciones a la Tecnología</h1>
+        <p>La adicción a la tecnología es un problema creciente en nuestra sociedad moderna. 
+           Desde el uso excesivo de redes sociales hasta la dependencia de los videojuegos, 
+           este tipo de adicción afecta a personas de todas las edades.
         </p>
-        <p>Buscar ayuda es el primer paso hacia la recuperación. Nunca es tarde para cambiar tu vida.</p>
+        <p>Tomar conciencia y establecer límites saludables es clave para mantener un equilibrio en nuestras vidas.</p>
 
-        <h2>¿Qué son las adicciones?</h2>
-        <p>Las adicciones son patrones de comportamiento compulsivo que una persona siente que no puede controlar, 
-           ya sea con sustancias como drogas o alcohol, o con actividades como el juego o el uso excesivo de tecnología.</p>
+        <h2>¿Qué es la adicción a la tecnología?</h2>
+        <p>La adicción a la tecnología se refiere al uso excesivo e incontrolado de dispositivos como smartphones, 
+           computadoras, consolas de videojuegos y tabletas, que interfiere con las actividades diarias, 
+           las relaciones y el bienestar general.</p>
 
-        <h2>Tipos de adicciones</h2>
+        <h2>Manifestaciones comunes</h2>
         <ul>
-            <li>Adicciones a sustancias (drogas, alcohol, nicotina).</li>
-            <li>Adicciones conductuales (juegos de azar, compras, tecnología).</li>
-            <li>Adicciones emocionales (dependencia de relaciones tóxicas).</li>
+            <li>Uso compulsivo de redes sociales.</li>
+            <li>Dependencia de los videojuegos en línea.</li>
+            <li>Revisión constante del teléfono móvil.</li>
+            <li>Negligencia de responsabilidades por estar conectado.</li>
         </ul>
 
         <!-- Video reproducible -->
         <div class="video-container">
             <video controls>
-                <source src="video-adicciones.mp4" type="video/mp4">
-                Tu navegador no soporta la reproducción de videos.
+                <source src="video/Las adicciones a la tecnologia.mp4" type="video/mp4">
+                
             </video>
         </div>
 
         <!-- Video utilizando iframe -->
         <div class="iframe-container">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/tu-video-id" 
-                    title="Video sobre adicciones" frameborder="0" allowfullscreen>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XlkWy8FVMTs?si=c2NRaR4cIhjdT977" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             </iframe>
         </div>
 
-        <h2>¿Cómo buscar ayuda?</h2>
-        <p>Reconocer el problema es el primer paso. Es importante buscar apoyo profesional, como terapeutas o grupos de ayuda, 
-           y rodearse de personas que impulsen el cambio positivo.</p>
+        <h2>Consejos para combatir la adicción</h2>
+        <p>Si sientes que pasas demasiado tiempo en dispositivos tecnológicos, aquí tienes algunos consejos:</p>
+        <ul>
+            <li>Establece horarios específicos para el uso de la tecnología.</li>
+            <li>Desactiva las notificaciones para reducir distracciones.</li>
+            <li>Dedica tiempo a actividades fuera de línea, como ejercicio o lectura.</li>
+            <li>Busca ayuda profesional si la adicción afecta tu calidad de vida.</li>
+        </ul>
 
         <!-- Control de audio -->
         <div class="audio-control">
             <audio autoplay loop>
                 <source src="audio-fondo.mp3" type="audio/mpeg">
-                Tu navegador no soporta la reproducción de audio.
+                
             </audio>
         </div>
     </div>
 </body>
 </html>
-
-
